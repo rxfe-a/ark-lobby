@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+        if (localStorage.getItem("username")) {
+  window.location.href = "launcher.html";
+}
+    </script>
     <link rel="stylesheet" type="text/css" href="./CSS/login.css">
 </head>
 <body>
+
     <div class="container">
         <div class="im-lo">
             <h1>Welcome To Ark</h1>
