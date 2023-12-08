@@ -4,6 +4,6 @@ const butt = document.getElementById('TitansGO')
 butt.style.backgroundColor = '#333333';
 butt.textContent = 'FINDING SERVER';
 setTimeout(() => {
-  window.location.href='https://afterhours.pages.dev/';
+  window.location.href='https://sm145.vercel.app/';
 }, 7000);
 }
