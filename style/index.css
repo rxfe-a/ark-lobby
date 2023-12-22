@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Open+Sans&family=Raleway:wght@300&display=swap');
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #171717ff;
+    }
+
+    .centerpiece {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .r_ {
+        border-radius: 15px;
+        width: 420px;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        background-color: #212121ff;
+    }
+    .g_item {
+    border-radius: 15px;
+    width: 400px;
+    background: linear-gradient(to bottom, #51ab2aff, #6aa84fff);
+    height: 90px;
+    display: flex;
+    margin-left: 8px;
+    margin-top: 15px;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+
+.g_item h1 {
+    font-size: 24px;
+}
+
+.g_item p {
+    margin-top: -5px;
+}
+
+.class_input {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    border: none;
+    font-weight: bold; /* Added to make the text bolder */
+    font-size: 16px; /* Adjust the font size as needed */
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+
+.class_number_ {
+    width: 104%;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px; /* Adjust the font size as needed */
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+
+#sumbit {
+    font-family: 'Montserrat', sans-serif;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #51ab2aff, #6aa84fff);
+    color: white;
+    margin-top: 50px;
+    margin-left: 150px;
+}

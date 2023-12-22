@@ -1,29 +1,20 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <script>
-        if (localStorage.getItem("username")) {
-  window.location.href = "launcher.html";
-}
-    </script>
-    <link rel="stylesheet" type="text/css" href="./CSS/login.css">
+    <link rel="stylesheet" href="/style/index.css">
+    <script src="register.smscript"></script>
 </head>
 <body>
-
-    <div class="container">
-        <div class="im-lo">
-            <h1>Welcome To Ark</h1>
-            <p>Please register a account</p>
-            <input id="username" type="text" id="username" name="username" required>
-                <br><br>
-                <input id="password" type="password" id="password" name="password" required>
-                <br><br>
-                <button class="sumit" onclick="sumbit()">Register</button>
-        </div>
-        <div class="im-sq">
-            <img src="./IMG/ark_Sidewayz.png">
+    <div class="centerpiece">
+        <div class="r_">
+            <div class="g_item">
+                <h1>Welcome to Seismetic</h1>
+                <p>Please Register a account to continue</p>
+            </div>
+            <input type="text" id="User" placeholder="USERNAME" required class="class_input">
+            <div style="border: none; height: 3px; width: 405px; background-color: #595959; margin-left: 8px; border-radius: 25px;"></div>
+            <input type="number" id="passcode" placeholder="PASCODE" required class="class_number_">
+            <button class="sumbit" id="sumbit" onclick="register()">Register</button>
         </div>
     </div>
-    <script src="JS/login.js"></script>
 </body>
 </html>
